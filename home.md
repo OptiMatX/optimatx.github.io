@@ -59,7 +59,7 @@
       <a href="#">Home</a>
       <a href="#">About</a>
       <a href="#">Events</a>
-      <a href="#">Contact</a>
+      <a href="https://optimatx.github.io/contactus">Contact</a>
     </nav>
     <main>
       <h2>Welcome to Math Club of IIT Patna!</h2>
