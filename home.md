@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Math Club Home Page</title>
+    <title>OptiMatX Home Page</title>
     <style>
       /* CSS styles */
       body {
@@ -53,7 +53,7 @@
   </head>
   <body>
     <header>
-      <h1>Math Club</h1>
+      <h1>OptiMatX</h1>
     </header>
     <nav>
       <a href="#">Home</a>
@@ -62,8 +62,8 @@
       <a href="#">Contact</a>
     </nav>
     <main>
-      <h2>Welcome to Math Club!</h2>
-      <p>We're a group of students who love math and want to learn more about it. We meet every Wednesday after school to work on problems and puzzles, discuss interesting math topics, and prepare for competitions.</p>
+      <h2>Welcome to Math Club of IIT Patna!</h2>
+      <p>We're a group of students who love math and want to learn more about it. We meet every day after college to work on problems and puzzles, discuss interesting math topics, and prepare for competitions.</p>
       <p>If you're interested in joining, come to one of our meetings or contact us for more information. We welcome students of all levels and backgrounds!</p>
       <h2>Upcoming Events</h2>
       <ul>
@@ -73,7 +73,7 @@
       </ul>
     </main>
     <footer>
-      &copy; 2023 Math Club
+      &copy; 2023 OptiMatX
     </footer>
   </body>
 </html>
