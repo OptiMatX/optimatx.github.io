@@ -1,11 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&display=swap");
+
 *,
 *::after,
 *::before {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI";
+
   font-weight: 400;
 }
+
+/*
 
 a {
   text-decoration: none;
@@ -13,7 +17,7 @@ a {
 }
 
 :root {
-  --btn-color: rgb(125, 170, 174);
+  --btn-color: rgb(234, 214, 205);
 }
 
 .navigation {
@@ -98,4 +102,113 @@ section {
   width: 100%;
   display: flex;
   justify-content: center;
+} */
+
+.navigation {
+  position: fixed;
+  left: 50%;
+  top: 10px;
+}
+
+.navigation-symbol {
+  display: grid;
+
+  grid-template-rows: 7px 7px 7px;
+  gap: 3px;
+}
+
+.menu-bar {
+  width: 30px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-image: url("/assets/geometry-g4a6325a92_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 105vh;
+}
+
+.intro-div {
+  margin-bottom: 200px;
+  backdrop-filter: blur(1px);
+  width: 60%;
+  display: flex;
+}
+
+.intro-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  flex-grow: 1;
+  gap: 3px;
+  align-items: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.text {
+  color: white;
+  font-family: "Alkatra", cursive;
+}
+
+.intro-text {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+}
+
+.section-title {
+  background-color: #23323b;
+
+  text-transform: uppercase;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  margin: 150px 20vw 300px 20vw;
+  gap: 20px;
+}
+
+.content-header {
+  font-family: "Alkatra", cursive;
+  font-size: 2.4rem;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.content {
+  font-family: "Alkatra", cursive;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.features {
+  background-image: url("assets/student-space_illustrations_studying.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 105vh;
 }
