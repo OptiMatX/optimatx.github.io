@@ -108,11 +108,11 @@ section {
   position: fixed;
   left: 50%;
   top: 10px;
+  z-index: 9999;
 }
 
 .navigation-symbol {
   display: grid;
-
   grid-template-rows: 7px 7px 7px;
   gap: 3px;
 }
@@ -124,6 +124,13 @@ section {
   border-radius: 2px;
 }
 
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(1.5px);
+}
+
 .hero-section {
   display: flex;
   justify-content: center;
@@ -132,6 +139,7 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-blend-mode: lighten;
   height: 105vh;
 }
 
@@ -158,6 +166,11 @@ section {
 
 .text {
   color: white;
+  font-family: "Alkatra", cursive;
+}
+
+.text2 {
+  color: black;
   font-family: "Alkatra", cursive;
 }
 
@@ -210,5 +223,37 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-blend-mode: lighten;
   height: 105vh;
+}
+
+.feature-title {
+  backdrop-filter: blur(1px);
+}
+
+.features-grid {
+  margin: 50px 15%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  backdrop-filter: blur(1px);
+  gap: 10%;
+}
+
+.feature-grid-element {
+}
+
+.feature-header {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  outline-style: double;
+  outline-color: rgb(63, 62, 62);
+  margin-bottom: 10px;
+}
+
+.feature-image {
+}
+
+.feature-content {
+  text-align: center;
 }
