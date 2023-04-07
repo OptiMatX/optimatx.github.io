@@ -257,3 +257,69 @@ section {
 .feature-content {
   text-align: center;
 }
+
+.our-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-section-title {
+  margin-top: 40px;
+  color: black;
+  width: 40%;
+  border-bottom: 3px solid black;
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  gap: 7px;
+  padding: 0 30px;
+}
+
+.member-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  height: 320px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 2px solid black;
+  gap: 40px;
+}
+
+.member-name,
+.member-title,
+.member-desc {
+  color: black;
+  margin-top: 10px;
+}
+
+.member-name {
+  font-size: 1.7rem;
+}
+
+.member-title {
+  font-size: 1.3rem;
+}
+
+.member-desc {
+  text-align: center;
+  color: grey;
+}
